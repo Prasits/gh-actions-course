@@ -11,9 +11,9 @@
     echo-goodbye:
       runs-on: ubuntu-latest
       steps:
-        - name: failed step
+        - name: Success Ful step
           run:  |
-            echo "I will fail"
-            exit 1
+            echo "I will Suceed"
+            exit 0
         - name: Say Goodbye
           run: echo "GoodBye"
